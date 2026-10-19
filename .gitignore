@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-ssr/
+.npm-cache/
+.preview/
+.chrome-tmp*/
+*.local
+.DS_Store
+.vite/
