@@ -85,7 +85,7 @@ def generate_og(icon: Image.Image) -> None:
     draw.text((x, 196), "FREE · NO ADS · OFFLINE", font=eyebrow_font, fill=GOLD_LIGHT)
     draw.text((x, 236), "Ilm Journey", font=title_font, fill=GOLD)
     draw.text((x, 358), "Learn Islam by playing", font=subtitle_font, fill=WHITE)
-    draw.text((x, 434), "119 games · 25 prophets · 3 languages", font=meta_font, fill=SOFT)
+    draw.text((x, 434), "131 games · 25 prophets · 3 languages", font=meta_font, fill=SOFT)
 
     image.convert("RGB").save(PUBLIC / "og-image.png", optimize=True)
 

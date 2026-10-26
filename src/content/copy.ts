@@ -4,7 +4,7 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
   en: {
     metaTitle: 'Ilm Journey – Learn Islam by playing',
     metaDescription:
-      'Ilm Journey is a free Islamic learning app for the whole family: 119 games, the stories of all 25 prophets, the Seerah, Quran and Arabic. No ads, no tracking, works offline. English, German and Bosnian.',
+      'Ilm Journey is a free Islamic learning app for the whole family: 131 games, the stories of all 25 prophets, the Seerah, Quran and Arabic. No ads, no tracking, works offline. English, German and Bosnian.',
     siteName: 'Ilm Journey',
     skip: 'Skip to content',
     nav: { features: 'Features', inside: 'Inside the app', screenshots: 'Screenshots', families: 'For families', faq: 'FAQ' },
@@ -13,12 +13,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     heroTitle: 'Learn Islam',
     heroTitleAccent: 'by playing',
     heroLead:
-      'Ilm Journey is the free Islamic learning app for the whole family – children (7+) with their parents, teenagers and adults. 119 games, the stories of all 25 prophets, the Seerah, Quran memorisation and Arabic in one app.',
+      'Ilm Journey is the free Islamic learning app for the whole family – children (7+) with their parents, teenagers and adults. 131 games, the stories of all 25 prophets, the Seerah, Quran memorisation and Arabic in one app.',
     heroCta: 'Download the app',
     heroCta2: 'See what’s inside',
     trust: ['100% free', 'No ads or tracking', 'Works offline', '3 languages'],
     stats: [
-      { value: '119', label: 'games with 3 levels' },
+      { value: '131', label: 'games with 3 levels' },
       { value: '25', label: 'prophet stories' },
       { value: '8', label: 'topics to learn' },
       { value: '3', label: 'languages' },
@@ -30,7 +30,7 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     features: [
       {
         icon: 'game',
-        title: '119 real games',
+        title: '131 real games',
         text: 'Drag, build, trace, sort and join. Every level ends with “You learned” – the facts, with their sources.',
       },
       {
@@ -46,12 +46,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
       {
         icon: 'book',
         title: 'Quran & Arabic',
-        text: 'Al-Fatiha and the complete Juz Amma to memorise, 26 Quranic duas, Arabic letters, joining and Sufara.',
+        text: 'Al-Fatiha and the complete Juz Amma to memorise, 26 Quranic duas, Arabic letters and a Sufara you read row by row.',
       },
       {
         icon: 'sparkles',
         title: 'A garden that grows',
-        text: 'The Ilm Garden grows as you learn – and nothing in it ever dies. Collect illustrated cards, each with a fact and its source.',
+        text: 'The Ilm Garden grows as you learn – trees, water and flowers each in their own place, and nothing ever dies. Collect cards, each with a fact and its source.',
       },
       {
         icon: 'shield',
@@ -89,7 +89,7 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
         text: 'Your hero and wardrobe, level and XP, garden, card album, knowledge radar, 28 badges and statistics.',
       },
     ],
-    gamesKicker: '119 games',
+    gamesKicker: '131 games',
     gamesTitle: 'Three levels, every time',
     gamesText:
       'No lives, no timers and no pressure – unless you choose challenge mode. Every level ends with a short “You learned” card and its sources.',
@@ -101,18 +101,23 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
       },
       {
         title: 'Quran & Juz Amma',
-        count: 12,
+        count: 13,
         text: 'Rebuild ayahs from word tiles, find the missing word, put the surahs in order and walk the Juz Amma path.',
       },
       {
-        title: 'Arabic & Sufara',
-        count: 14,
-        text: 'Letters, dots and forms, joining letters into words, harakat, madd and reading line by line.',
+        title: 'Sufara',
+        count: 13,
+        text: 'Like a printed primer: one letter per lesson, then rows to read aloud with the letters learned before – be bi bu, ebe ibi ubu.',
+      },
+      {
+        title: 'Arabic',
+        count: 12,
+        text: 'Letters, dots and forms, joining letters into words, harakat, sukun, madd and first everyday words.',
       },
       {
         title: 'Prophets',
         count: 26,
-        text: 'A game for each of the 25 prophets – the Ark of Nuh, raising the Kaaba, Yusuf’s storehouse, the twelve springs.',
+        text: 'A game for each of the 25 prophets: three levels, three key events from the Quran, each ending with a lesson – from the Ark of Nuh to Yusuf’s forgiveness.',
       },
       {
         title: 'Seerah',
@@ -141,12 +146,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     captures: [
       'Home: the Ilm Garden',
       'Play: the game shelf',
-      'Salah: a game for every prayer',
+      'Sufara: read row by row',
+      'A prophet game: three events, three lessons',
+      'Learn: the Quran path',
+      'The Ilm Garden',
       'Stories: a prophet story',
-      'Build the Masjid',
-      'Arabic letters',
-      'You learned – with sources',
-      'Prophets: the story map',
+      'Prophets: 26 games',
     ],
     principlesKicker: 'Our promise',
     principlesTitle: 'Free. Private. Respectful.',
@@ -250,14 +255,14 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     supportFaqTitle: 'Frequently asked questions',
     supportFaqText: 'Many questions are answered on the home page.',
     supportAppTitle: 'About the app',
-    supportVersion: 'Version 1.0.0 · Android & iOS',
+    supportVersion: 'Version 1.0.2 · Android & iOS',
     supportPrivacy: 'Privacy policy',
   },
 
   de: {
     metaTitle: 'Ilm Journey – Islam spielend lernen',
     metaDescription:
-      'Ilm Journey ist die kostenlose islamische Lern-App für die ganze Familie: 119 Spiele, die Geschichten aller 25 Propheten, die Sira, Koran und Arabisch. Ohne Werbung, ohne Tracking, offline. Deutsch, Englisch und Bosnisch.',
+      'Ilm Journey ist die kostenlose islamische Lern-App für die ganze Familie: 131 Spiele, die Geschichten aller 25 Propheten, die Sira, Koran und Arabisch. Ohne Werbung, ohne Tracking, offline. Deutsch, Englisch und Bosnisch.',
     siteName: 'Ilm Journey',
     skip: 'Zum Inhalt springen',
     nav: { features: 'Funktionen', inside: 'In der App', screenshots: 'Screenshots', families: 'Für Familien', faq: 'FAQ' },
@@ -266,12 +271,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     heroTitle: 'Islam',
     heroTitleAccent: 'spielend lernen',
     heroLead:
-      'Ilm Journey ist die kostenlose islamische Lern-App für die ganze Familie – für Kinder (ab 7) mit ihren Eltern, Jugendliche und Erwachsene. 119 Spiele, die Geschichten aller 25 Propheten, die Sira, Koran zum Auswendiglernen und Arabisch in einer App.',
+      'Ilm Journey ist die kostenlose islamische Lern-App für die ganze Familie – für Kinder (ab 7) mit ihren Eltern, Jugendliche und Erwachsene. 131 Spiele, die Geschichten aller 25 Propheten, die Sira, Koran zum Auswendiglernen und Arabisch in einer App.',
     heroCta: 'App herunterladen',
     heroCta2: 'In die App schauen',
     trust: ['100 % kostenlos', 'Ohne Werbung & Tracking', 'Funktioniert offline', '3 Sprachen'],
     stats: [
-      { value: '119', label: 'Spiele mit 3 Leveln' },
+      { value: '131', label: 'Spiele mit 3 Leveln' },
       { value: '25', label: 'Prophetengeschichten' },
       { value: '8', label: 'Lernthemen' },
       { value: '3', label: 'Sprachen' },
@@ -283,7 +288,7 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     features: [
       {
         icon: 'game',
-        title: '119 echte Spiele',
+        title: '131 echte Spiele',
         text: 'Ziehen, bauen, nachspuren, sortieren und verbinden. Jedes Level endet mit „Das hast du gelernt“ – den Fakten und ihren Quellen.',
       },
       {
@@ -299,12 +304,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
       {
         icon: 'book',
         title: 'Koran & Arabisch',
-        text: 'Al-Fatiha und der komplette Dschuz Amma zum Auswendiglernen, 26 Bittgebete, arabische Buchstaben, ihr Verbinden und Sufara.',
+        text: 'Al-Fatiha und der komplette Dschuz Amma zum Auswendiglernen, 26 Bittgebete, arabische Buchstaben und eine Sufara, die du Zeile für Zeile liest.',
       },
       {
         icon: 'sparkles',
         title: 'Ein Garten, der wächst',
-        text: 'Der Ilm-Garten wächst mit deinem Lernen – und nichts darin stirbt. Sammle bebilderte Karten, jede mit Fakt und Quelle.',
+        text: 'Der Ilm-Garten wächst mit deinem Lernen – Bäume, Wasser und Blumen je an ihrem Platz, und nichts stirbt. Sammle Karten, jede mit Fakt und Quelle.',
       },
       {
         icon: 'shield',
@@ -342,7 +347,7 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
         text: 'Dein Held und deine Garderobe, Level und XP, Garten, Kartenalbum, Wissensradar, 28 Abzeichen und Statistiken.',
       },
     ],
-    gamesKicker: '119 Spiele',
+    gamesKicker: '131 Spiele',
     gamesTitle: 'Drei Level, jedes Mal',
     gamesText:
       'Keine Leben, keine Timer und kein Druck – außer du wählst den Herausforderungsmodus. Jedes Level endet mit einer kurzen „Das hast du gelernt“-Karte und ihren Quellen.',
@@ -354,18 +359,23 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
       },
       {
         title: 'Koran & Dschuz Amma',
-        count: 12,
+        count: 13,
         text: 'Verse aus Wortkärtchen bauen, das fehlende Wort finden, Suren ordnen und den Pfad durch Dschuz Amma gehen.',
       },
       {
-        title: 'Arabisch & Sufara',
-        count: 14,
-        text: 'Buchstaben, Punkte und Formen, Buchstaben zu Wörtern verbinden, Harakat, Madd und Zeile für Zeile lesen.',
+        title: 'Sufara',
+        count: 13,
+        text: 'Wie eine gedruckte Fibel: ein Buchstabe pro Lektion, dann Zeilen zum lauten Lesen mit den früheren Buchstaben – ba bi bu, aba ibi ubu.',
+      },
+      {
+        title: 'Arabisch',
+        count: 12,
+        text: 'Buchstaben, Punkte und Formen, Buchstaben zu Wörtern verbinden, Harakat, Sukun, Madd und erste Alltagswörter.',
       },
       {
         title: 'Propheten',
         count: 26,
-        text: 'Ein Spiel für jeden der 25 Propheten – die Arche Nuhs, die Kaaba, Yusufs Vorratshaus, die zwölf Quellen.',
+        text: 'Ein Spiel für jeden der 25 Propheten: drei Level, drei wichtige Ereignisse aus dem Koran, jedes mit einer Lehre – von der Arche Nuhs bis zu Yusufs Vergebung.',
       },
       {
         title: 'Sira',
@@ -394,12 +404,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     captures: [
       'Start: der Ilm-Garten',
       'Spielen: das Spiele-Regal',
-      'Gebet: ein Spiel für jedes Gebet',
+      'Sufara: Zeile für Zeile lesen',
+      'Ein Prophetenspiel: drei Ereignisse, drei Lehren',
+      'Lernen: der Weg durch den Koran',
+      'Der Ilm-Garten',
       'Geschichten: eine Prophetengeschichte',
-      'Baue die Moschee',
-      'Arabische Buchstaben',
-      'Das hast du gelernt – mit Quellen',
-      'Propheten: die Geschichtenkarte',
+      'Propheten: 26 Spiele',
     ],
     principlesKicker: 'Unser Versprechen',
     principlesTitle: 'Kostenlos. Privat. Respektvoll.',
@@ -503,14 +513,14 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     supportFaqTitle: 'Häufige Fragen',
     supportFaqText: 'Viele Fragen sind auf der Startseite beantwortet.',
     supportAppTitle: 'Über die App',
-    supportVersion: 'Version 1.0.0 · Android & iOS',
+    supportVersion: 'Version 1.0.2 · Android & iOS',
     supportPrivacy: 'Datenschutzerklärung',
   },
 
   bs: {
     metaTitle: 'Ilm Journey – uči islam kroz igru',
     metaDescription:
-      'Ilm Journey je besplatna islamska aplikacija za učenje za cijelu porodicu: 119 igara, kazivanja o svih 25 poslanika, Sira, Kur’an i arapski. Bez reklama, bez praćenja, radi bez interneta. Bosanski, njemački i engleski.',
+      'Ilm Journey je besplatna islamska aplikacija za učenje za cijelu porodicu: 131 igara, kazivanja o svih 25 poslanika, Sira, Kur’an i arapski. Bez reklama, bez praćenja, radi bez interneta. Bosanski, njemački i engleski.',
     siteName: 'Ilm Journey',
     skip: 'Preskoči na sadržaj',
     nav: { features: 'Funkcije', inside: 'U aplikaciji', screenshots: 'Snimci ekrana', families: 'Za porodice', faq: 'Pitanja' },
@@ -519,12 +529,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     heroTitle: 'Uči islam',
     heroTitleAccent: 'kroz igru',
     heroLead:
-      'Ilm Journey je besplatna islamska aplikacija za učenje za cijelu porodicu – za djecu (od 7 godina) s roditeljima, mlade i odrasle. 119 igara, kazivanja o svih 25 poslanika, Sira, učenje Kur’ana napamet i arapski u jednoj aplikaciji.',
+      'Ilm Journey je besplatna islamska aplikacija za učenje za cijelu porodicu – za djecu (od 7 godina) s roditeljima, mlade i odrasle. 131 igara, kazivanja o svih 25 poslanika, Sira, učenje Kur’ana napamet i arapski u jednoj aplikaciji.',
     heroCta: 'Preuzmi aplikaciju',
     heroCta2: 'Zaviri u aplikaciju',
     trust: ['100% besplatno', 'Bez reklama i praćenja', 'Radi bez interneta', '3 jezika'],
     stats: [
-      { value: '119', label: 'igara s 3 nivoa' },
+      { value: '131', label: 'igara s 3 nivoa' },
       { value: '25', label: 'kazivanja o poslanicima' },
       { value: '8', label: 'tema za učenje' },
       { value: '3', label: 'jezika' },
@@ -536,7 +546,7 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     features: [
       {
         icon: 'game',
-        title: '119 pravih igara',
+        title: '131 pravih igara',
         text: 'Prevlači, gradi, piši, razvrstavaj i spajaj. Svaki nivo završava s „Naučio si“ – činjenicama i njihovim izvorima.',
       },
       {
@@ -552,12 +562,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
       {
         icon: 'book',
         title: 'Kur’an i arapski',
-        text: 'El-Fatiha i cijeli Džuz Amme za učenje napamet, 26 kur’anskih dova, arapski harfovi, njihovo spajanje i sufara.',
+        text: 'El-Fatiha i cijeli Džuz Amme za učenje napamet, 26 kur’anskih dova, arapski harfovi i sufara koju čitaš red po red.',
       },
       {
         icon: 'sparkles',
         title: 'Bašča koja raste',
-        text: 'Bašča znanja raste dok učiš – i ništa u njoj ne umire. Sakupljaj ilustrovane karte, svaka s činjenicom i izvorom.',
+        text: 'Bašča znanja raste dok učiš – drveće, voda i cvijeće, svako na svom mjestu, i ništa ne umire. Sakupljaj karte, svaka s činjenicom i izvorom.',
       },
       {
         icon: 'shield',
@@ -595,7 +605,7 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
         text: 'Tvoj junak i garderoba, nivo i XP, bašča, album karata, radar znanja, 28 značaka i statistika.',
       },
     ],
-    gamesKicker: '119 igara',
+    gamesKicker: '131 igara',
     gamesTitle: 'Tri nivoa, svaki put',
     gamesText:
       'Bez gubljenja života, bez tajmera i bez pritiska – osim ako izabereš izazov. Svaki nivo završava kratkom kartom „Naučio si“ i njenim izvorima.',
@@ -607,18 +617,23 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
       },
       {
         title: 'Kur’an i Džuz Amme',
-        count: 12,
+        count: 13,
         text: 'Složi ajete od pločica s riječima, pronađi riječ koja nedostaje, poredaj sure i prođi stazom Džuz Amme.',
       },
       {
-        title: 'Arapski i sufara',
-        count: 14,
-        text: 'Harfovi, tačke i oblici, spajanje harfova u riječi, hareketi, medd i čitanje red po red.',
+        title: 'Sufara',
+        count: 13,
+        text: 'Kao iz knjige: jedan harf po lekciji, pa redovi za čitanje naglas s ranije naučenim harfovima – be bi bu, ebe ibi ubu.',
+      },
+      {
+        title: 'Arapski',
+        count: 12,
+        text: 'Harfovi, tačke i oblici, spajanje harfova u riječi, hareketi, sukun, medd i prve svakodnevne riječi.',
       },
       {
         title: 'Poslanici',
         count: 26,
-        text: 'Igra za svakog od 25 poslanika – Nuhova lađa, podizanje Kabe, Jusufov ambar, dvanaest izvora.',
+        text: 'Igra za svakog od 25 poslanika: tri nivoa, tri važna događaja iz Kur’ana, svaki s poukom – od Nuhove lađe do Jusufovog oprosta.',
       },
       {
         title: 'Sira',
@@ -647,12 +662,12 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     captures: [
       'Početna: Bašča znanja',
       'Igraj: polica igara',
-      'Namaz: igra za svaki namaz',
-      'Priče: priča o poslaniku',
-      'Izgradi mesdžid',
-      'Arapski harfovi',
-      'Naučio si – s izvorima',
-      'Poslanici: mapa priča',
+      'Sufara: čitanje red po red',
+      'Igra o poslaniku: tri događaja, tri pouke',
+      'Uči: put kroz Kur’an',
+      'Bašča znanja',
+      'Priče: kazivanje o poslaniku',
+      'Poslanici: 26 igara',
     ],
     principlesKicker: 'Naše obećanje',
     principlesTitle: 'Besplatno. Privatno. S poštovanjem.',
@@ -756,7 +771,7 @@ export const UI: Record<'en' | 'de' | 'bs', Copy> = {
     supportFaqTitle: 'Česta pitanja',
     supportFaqText: 'Mnoga pitanja su odgovorena na početnoj stranici.',
     supportAppTitle: 'O aplikaciji',
-    supportVersion: 'Verzija 1.0.0 · Android i iOS',
+    supportVersion: 'Verzija 1.0.2 · Android i iOS',
     supportPrivacy: 'Politika privatnosti',
   },
 };

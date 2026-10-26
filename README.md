@@ -1,7 +1,7 @@
 # Ilm Journey – website
 
 Landing page for [Ilm Journey](https://github.com/metur100/Ilm.Journey), the free Islamic learning app
-for the whole family: 119 games, the stories of all 25 prophets, the Seerah, Quran and Arabic in one app.
+for the whole family: 131 games, the stories of all 25 prophets, the Seerah, Quran and Arabic in one app.
 
 **Live:** https://metur100.github.io/Ilm.Journey.Landing/
 
@@ -14,7 +14,7 @@ for the whole family: 119 games, the stories of all 25 prophets, the Seerah, Qur
 
 | Path | Content |
 | --- | --- |
-| `/<lang>/` | Landing page: hero, features, the 119 games, screenshots, principles, families, FAQ, download |
+| `/<lang>/` | Landing page: hero, features, the 131 games, screenshots, principles, families, FAQ, download |
 | `/<lang>/privacy/` | Privacy policy – **this is the URL for Google Play and the App Store** |
 | `/<lang>/imprint/` | Imprint (Impressum) |
 | `/<lang>/support/` | Support page with contact details |
