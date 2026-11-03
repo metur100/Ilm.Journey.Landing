@@ -30,7 +30,7 @@ export const SITE = {
   allAppsUrl: 'https://metur100.github.io/Islam.Apps.Landing/',
   // Set play: true once the app is live on Google Play, and appStoreId (the number from
   // https://apps.apple.com/app/id<number>) once it is live on the App Store. Until then the badge shows "Coming soon".
-  stores: { play: false, appStoreId: null as number | null },
+  stores: { play: true, appStoreId: 6829649315 as number | null },
   // Google Play has no Bosnian store language; Croatian is the closest one.
   playLocale: { en: 'en', de: 'de', bs: 'hr' } as Record<Lang, string>,
 };
